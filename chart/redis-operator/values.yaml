@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: redisoperator/operator
-  tag: master
+  repository: dcscloud.icp:8500/default/redisoperator
+  tag: latest
   pullPolicy: IfNotPresent
 log:
   level: 2
