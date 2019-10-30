@@ -10,8 +10,8 @@ annotations:
   # kubernetes.io/ingress.class: nginx
   # kubernetes.io/tls-acme: "true"
 image:
-  repository: redisoperator/redisnode
-  tag: master
+  repository: dcscloud.icp:8500/default/redisnode
+  tag: latest
   pullPolicy: IfNotPresent
 log:
   level: 6
